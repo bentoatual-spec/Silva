@@ -2,15 +2,43 @@ body {
     font-family: "Boldonse", system-ui;
     text-align: center;
     margin-top: 10%;
+    background-color: #08a6f0;
+    
 }
 
-input, button {
+
+input,
+button {
     padding: 10px;
     margin: 5px;
     font-size: 16px;
 }
 
-#resultado{
-    margin-top: 20px;
-    font-size: 15;
+.container{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    /*border: red 2px solid; */
 }
+
+.caixa-busca {
+    width: 60vh;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid #333;
+    text-align: center;
+    background-color: rgb(21, 89, 236);
+}
+
+.caixa-resultado {
+    width: 60vh;
+    padding: 15px;
+    border-radius: 20px;
+    border: 2px solid #333;
+    text-align: center;
+    background-color: rgb(21, 89, 236);
+}
+
